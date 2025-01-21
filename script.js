@@ -263,7 +263,7 @@ const totalDepositsToUsd = movements
 
 const arr = Array.from({ length: 7 }, () => 1);
 
-console.log(arr);
+console.log(`implementing array from ${arr}`);
 /*
 const balance = movements.reduce(function (acc, mov, index, arr) {
   return acc + mov;
